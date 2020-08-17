@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/096f1459b0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../lib/et-line-font/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Side bar -->
+      <div class="side-bar">
+        <div class="side-bar__list">
+          <ul class="text-center">
+            <li data-label="violation">
+              <i class="icon-layers"></i>
+            </li>
+
+            <li data-label="add new range">
+              <i class="icon-bargraph"></i>
+            </li>
+
+            <li data-label="ip-list">
+              <i class="icon-clock"></i>
+            </li>
+
+            <li>
+              <i class="fas fa-th"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <!-- Nav Bar -->
+        <div class="nav section__box">
+          <div class="d-flex align-center">
+            <!-- Nav logo -->
+            <div class="nav__logo">
+              <a href="#">
+                <img src="../images/logo.png" alt="logo" />
+              </a>
+            </div>
+
+            <div class="mr-20">
+              <p class="text-upper fw-5">Pos</p>
+            </div>
+
+            <div>
+              <ul>
+                <li class="nav__link">
+                  <span class="nav__link-dropdown">
+                    <span class="mr-3">Dashboard</span> <i class="fas fa-chevron-down"></i>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav__user">
+              <button class="user-button">
+                <i class="icon-profile-male"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Section -->
+
+        <div class="main">
+          <!-- Violation section -->
+          <div data-title="violation" class="violation section show">
+            <div class="violation-header section__box">
+              <div class="d-flex-bw">
+                <div class="col-lg-3">
+                  <div class="violation-header__item d-flex-bw">
+                    <p class="fw-6 violation-header__item-label">
+                      Total Exception
+                    </p>
+
+                    <p class="violation-header__item-number t-blue fz-22">
+                      1
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="violation-header__item d-flex-bw">
+                    <p class="fw-6 violation-header__item-label">
+                      Total Ip Address
+                    </p>
+
+                    <p class="violation-header__item-number t-blue fz-22">
+                      256
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="violation-header__item d-flex-bw">
+                    <p class="fw-6 violation-header__item-label">
+                      Violators today
+                    </p>
+
+                    <p class="violation-header__item-number t-red fz-22">
+                      0
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="violation-header__item d-flex-bw">
+                    <p class="fw-6 violation-header__item-label">
+                      Violators monthly
+                    </p>
+
+                    <p class="violation-header__item-number t-blue fz-22">
+                      256
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="violation-content section__box">
+              <div class="violation-content__header section__header">
+                <h2>
+                  List violation of the month
+                </h2>
+              </div>
+
+              <div class="violation-content__table section__table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>IP</th>
+                      <th>Date</th>
+                      <th>Account</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>99</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>98</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>97</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>96</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>95</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>94</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                      <td>93</td>
+                      <td>10.16.33.98</td>
+                      <td>2018/09/03</td>
+                      <td>OwPzwJtsUI@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add new range section -->
+          <div data-title="add new range" class="add-new-range section section__box">
+            <div class="section__header">
+              <h2>
+                Add new add-new-range
+              </h2>
+            </div>
+
+            <div class="add-new-range__form">
+              <form action="">
+                <div class="add-new-range__form-input">
+                  <div class="add-new-range__form-input-row">
+                    <label for="ip-input">
+                      IP Address Range
+                    </label>
+
+                    <div class="w-3">
+                      <input
+                        id="ip-input"
+                        type="text"
+                        class="form-control w-10"
+                        placeholder="10.16.45.10/24"
+                      />
+
+                      <p class="t-grey fz-12">Please enter range ip</p>
+                    </div>
+                  </div>
+
+                  <div class="add-new-range__form-input-row">
+                    <label for="desc-input">
+                      Description
+                    </label>
+
+                    <div class="w-3">
+                      <textarea
+                        class="form-control w-10"
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="5"
+                      ></textarea>
+
+                      <p class="t-grey fz-12">We'll never show your email with anyone else</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="add-new-range__form-button">
+                  <button class="blue-background-btn btn">
+                    Submit
+                  </button>
+
+                  <button class="white-background-btn btn">
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- IP Address Table -->
+          <div data-title="ip-list" class="ip-address section section__box">
+            <div class="section__header">
+              <h2>
+                Ip Address
+              </h2>
+            </div>
+
+            <div class="ip-address__table section__table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Subnet</th>
+                    <th>Description</th>
+                    <th>IP</th>
+                    <th>Account</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>256</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td>10.16.33.0/24</td>
+                    <td>List IP Address IT Center</td>
+                    <td>10.16.33.255</td>
+                    <td>X60bcl25F@gmail.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

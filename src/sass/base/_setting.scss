@@ -1,0 +1,48 @@
+body {
+  color: #535357;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+.t {
+  &-blue {
+    color: $blue;
+  }
+  &-red {
+    color: $red;
+  }
+  &-green {
+    color: $green;
+  }
+  &-grey {
+    color: $grey;
+  }
+}
+
+.section__box {
+  background-color: #fff;
+  box-shadow: 0 0 1rem darken($color: $grey-bg, $amount: 8%);
+}
+
+.section__header {
+  padding: 2rem 1.5rem;
+  border-bottom: 1px solid $grey-bg;
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.section__table {
+  padding: 2rem;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    th,
+    td {
+      padding: 2rem 1.5rem;
+      text-align: left;
+    }
+  }
+}

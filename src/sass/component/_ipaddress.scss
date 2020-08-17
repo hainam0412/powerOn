@@ -1,0 +1,16 @@
+.ip-address {
+  margin-top: 2rem;
+
+  &__table {
+    table,
+    th,
+    tr,
+    td {
+      border: 0.1rem solid $grey-bg;
+    }
+
+    tbody tr:first-child {
+      background-color: #f6f7f9;
+    }
+  }
+}
