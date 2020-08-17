@@ -92,3 +92,18 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 510px) {
+  .section__table {
+    table tbody td {
+      font-size: 1.2rem;
+    }
+
+    table {
+      thead tr th:nth-child(2),
+      tbody tr td:nth-child(2) {
+        width: 30%;
+      }
+    }
+  }
+}

@@ -5,15 +5,29 @@
     &-input {
       padding: 3rem 5rem;
 
+      @media (max-width: 600px) {
+        padding: 3rem 2rem;
+      }
+
       &-row {
         display: flex;
         margin-bottom: 4rem;
+
+        @media (max-width: 600px) {
+          flex-wrap: wrap;
+        }
 
         label {
           padding-top: 1rem;
           width: 20%;
           margin-right: 2rem;
           text-align: right;
+
+          @media (max-width: 600px) {
+            width: 100%;
+            margin-bottom: 1.5rem;
+            text-align: left;
+          }
         }
 
         .form-control {
@@ -28,6 +42,12 @@
       padding-left: calc(20% + 6rem);
       padding-top: 2rem;
       padding-bottom: 2rem;
+
+      @media (max-width: 600px) {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+      }
 
       button {
         margin-right: 0.5rem;
