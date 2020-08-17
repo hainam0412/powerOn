@@ -14,6 +14,11 @@
         width: calc(50% - 1.5rem);
       }
 
+      @media (max-width: 550px) {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
       .form-control {
         @media (max-width: 768px) {
           width: 100%;
@@ -24,6 +29,10 @@
     &-email {
       @media (max-width: 768px) {
         width: calc(50% - 1.5rem);
+      }
+
+      @media (max-width: 550px) {
+        width: 100%;
       }
 
       .form-control {

@@ -3440,6 +3440,15 @@ body {
     display: none;
   }
 }
+@media (max-width: 510px) {
+  .section__table table tbody td {
+    font-size: 1.2rem;
+  }
+  .section__table table thead tr th:nth-child(2),
+.section__table table tbody tr td:nth-child(2) {
+    width: 30%;
+  }
+}
 .nav {
   background-color: #fff;
   position: fixed;
@@ -3519,15 +3528,32 @@ body {
 .add-new-range__form-input {
   padding: 3rem 5rem;
 }
+@media (max-width: 600px) {
+  .add-new-range__form-input {
+    padding: 3rem 2rem;
+  }
+}
 .add-new-range__form-input-row {
   display: flex;
   margin-bottom: 4rem;
+}
+@media (max-width: 600px) {
+  .add-new-range__form-input-row {
+    flex-wrap: wrap;
+  }
 }
 .add-new-range__form-input-row label {
   padding-top: 1rem;
   width: 20%;
   margin-right: 2rem;
   text-align: right;
+}
+@media (max-width: 600px) {
+  .add-new-range__form-input-row label {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
 }
 .add-new-range__form-input-row .form-control {
   display: block;
@@ -3538,6 +3564,13 @@ body {
   padding-left: calc(20% + 6rem);
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+@media (max-width: 600px) {
+  .add-new-range__form-button {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
 }
 .add-new-range__form-button button {
   margin-right: 0.5rem;
@@ -3600,6 +3633,12 @@ body {
     width: calc(50% - 1.5rem);
   }
 }
+@media (max-width: 550px) {
+  .report-daily__header-ip {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
 @media (max-width: 768px) {
   .report-daily__header-ip .form-control {
     width: 100%;
@@ -3608,6 +3647,11 @@ body {
 @media (max-width: 768px) {
   .report-daily__header-email {
     width: calc(50% - 1.5rem);
+  }
+}
+@media (max-width: 550px) {
+  .report-daily__header-email {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
