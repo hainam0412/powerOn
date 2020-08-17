@@ -1,0 +1,113 @@
+.report-daily {
+  margin-top: 2rem;
+  position: relative;
+
+  &__header {
+    padding: 0 2rem;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &-ip {
+      @media (max-width: 768px) {
+        width: calc(50% - 1.5rem);
+      }
+
+      .form-control {
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+
+    &-email {
+      @media (max-width: 768px) {
+        width: calc(50% - 1.5rem);
+      }
+
+      .form-control {
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+
+    &-cta {
+      @media (max-width: 1024px) {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+      }
+
+      i {
+        @media (max-width: 593px) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .form-control {
+    padding: 1.2rem;
+    height: 100%;
+  }
+
+  &__date {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+
+    .form-control {
+      background: #fff;
+      border: none;
+      outline: none;
+      display: inline-block;
+      transition: all 0.5s;
+      border-radius: 0rem;
+      resize: none;
+      font-family: inherit;
+    }
+
+    @media (max-width: 1024px) {
+      order: 1;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+    }
+  }
+
+  &__table {
+    table,
+    th,
+    tr,
+    td {
+      border: 0.1rem solid $grey-bg;
+    }
+
+    tbody tr:nth-child(2) {
+      background-color: #f6f7f9;
+    }
+  }
+
+  &__input {
+    background: #f1f2f7;
+    border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    display: inline-block;
+    padding: 1.2rem;
+    transition: all 0.5s;
+    resize: none;
+    font-family: inherit;
+    width: 7rem;
+    text-align: center;
+
+    @media (max-width: 1024px) {
+      width: 5rem;
+    }
+  }
+}

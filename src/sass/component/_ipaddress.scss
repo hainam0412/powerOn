@@ -14,3 +14,52 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .ip-address {
+    &__table {
+      table {
+        thead tr th:nth-child(1),
+        tbody tr td:nth-child(1) {
+          width: 10%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .ip-address {
+    &__table {
+      table {
+        thead tr th:nth-child(3),
+        tbody tr td:nth-child(3) {
+          display: none;
+        }
+
+        thead tr th:nth-child(4),
+        tbody tr td:nth-child(4) {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 593px) {
+  .ip-address {
+    &__table {
+      table {
+        thead tr th:nth-child(2),
+        tbody tr td:nth-child(2) {
+          display: none;
+        }
+
+        thead tr th:nth-child(4),
+        tbody tr td:nth-child(4) {
+          width: 30%;
+        }
+      }
+    }
+  }
+}

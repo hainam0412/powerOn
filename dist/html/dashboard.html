@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../lib/et-line-font/style.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
     <div class="wrapper">
       <!-- Side bar -->
@@ -30,7 +31,7 @@
               <i class="icon-clock"></i>
             </li>
 
-            <li>
+            <li data-label="add new exception">
               <i class="fas fa-th"></i>
             </li>
           </ul>
@@ -77,7 +78,7 @@
           <div data-title="violation" class="violation section show">
             <div class="violation-header section__box">
               <div class="d-flex-bw">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                   <div class="violation-header__item d-flex-bw">
                     <p class="fw-6 violation-header__item-label">
                       Total Exception
@@ -89,7 +90,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                   <div class="violation-header__item d-flex-bw">
                     <p class="fw-6 violation-header__item-label">
                       Total Ip Address
@@ -101,7 +102,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                   <div class="violation-header__item d-flex-bw">
                     <p class="fw-6 violation-header__item-label">
                       Violators today
@@ -113,7 +114,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                   <div class="violation-header__item d-flex-bw">
                     <p class="fw-6 violation-header__item-label">
                       Violators monthly
@@ -204,7 +205,7 @@
           <div data-title="add new range" class="add-new-range section section__box">
             <div class="section__header">
               <h2>
-                Add new add-new-range
+                Add new range
               </h2>
             </div>
 
@@ -216,7 +217,7 @@
                       IP Address Range
                     </label>
 
-                    <div class="w-3">
+                    <div class="w-lg-3 w-md-9">
                       <input
                         id="ip-input"
                         type="text"
@@ -233,7 +234,7 @@
                       Description
                     </label>
 
-                    <div class="w-3">
+                    <div class="w-lg-3 w-md-9">
                       <textarea
                         class="form-control w-10"
                         name=""
@@ -248,11 +249,11 @@
                 </div>
 
                 <div class="add-new-range__form-button">
-                  <button class="blue-background-btn btn">
+                  <button class="blue-background-btn btn btn-round">
                     Submit
                   </button>
 
-                  <button class="white-background-btn btn">
+                  <button class="white-background-btn btn btn-round">
                     Cancel
                   </button>
                 </div>
@@ -261,7 +262,7 @@
           </div>
 
           <!-- IP Address Table -->
-          <div data-title="ip-list" class="ip-address section section__box">
+          <div data-title="add new range" class="ip-address section section__box">
             <div class="section__header">
               <h2>
                 Ip Address
@@ -338,6 +339,176 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+
+          <!-- Report Daily Table -->
+          <div data-title="ip-list" class="report-daily section section__box">
+            <div class="section__header">
+              <h2>
+                Report Daily
+              </h2>
+            </div>
+
+            <div class="d-flex-bw mt-40 report-daily__header">
+              <div class="report-daily__header-ip">
+                <input class="form-control" id="" type="text" placeholder="IP Address" />
+              </div>
+
+              <div class="d-flex report-daily__date">
+                <input class="form-control" id="" type="date" placeholder="" />
+                <input class="report-daily__input" id="" type="" placeholder=". . ." disabled />
+                <input class="form-control" id="" type="date" placeholder="" />
+              </div>
+
+              <div class="report-daily__header-email">
+                <input class="form-control" id="" type="text" placeholder="Email Enter" />
+              </div>
+
+              <div class="d-flex report-daily__header-cta">
+                <button type="button" class="btn-date blue-background-btn btn">
+                  <i class="fas fa-search mr-5"></i> <span class="mb-hide">Search</span>
+                </button>
+                <button type="button" class="btn-date blue-background-btn btn">
+                  <i class="fas fa-download mr-5"></i> <span class="mb-hide">Export</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="report-daily__table section__table show">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>IP</th>
+                    <th>Date</th>
+                    <th>Account</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>256</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td>10.16.33.98</td>
+                    <td>2018/09/03</td>
+                    <td>OwPzwJtsUI@gmail.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Add new exception -->
+          <div data-title="add new exception" class="add-new-range section section__box">
+            <div class="section__header">
+              <h2>
+                Add new exception
+              </h2>
+            </div>
+
+            <div class="add-new-range__form">
+              <form action="">
+                <div class="add-new-range__form-input">
+                  <div class="add-new-range__form-input-row">
+                    <label for="">
+                      IP Address Range
+                    </label>
+
+                    <div class="w-lg-3 w-md-9">
+                      <input
+                        id=""
+                        type="text"
+                        class="form-control w-10"
+                        placeholder="10.16.45.10/24"
+                      />
+
+                      <p class="t-grey fz-12">Please enter range ip</p>
+                    </div>
+                  </div>
+
+                  <div class="add-new-range__form-input-row align-center">
+                    <label>
+                      Type
+                    </label>
+                    <div class="w-lg-3 w-md-9 d-flex align-center mt-10">
+                      <div class="mr-30">
+                        <input type="radio" value="" name="Ip-Address" class="mr-5" />Ip Address
+                      </div>
+                      <div><input type="radio" value="" name="Ip-Address" class="mr-5" />CIDR</div>
+                    </div>
+                  </div>
+
+                  <div class="add-new-range__form-input-row">
+                    <label for="">
+                      Description
+                    </label>
+
+                    <div class="w-lg-3 w-md-9">
+                      <textarea
+                        class="form-control w-10"
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="5"
+                      ></textarea>
+
+                      <p class="t-grey fz-12">We'll never show your email with anyone else</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="add-new-range__form-button">
+                  <button class="blue-background-btn btn btn-round">
+                    Submit
+                  </button>
+
+                  <button class="white-background-btn btn btn-round">
+                    Cancel
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
